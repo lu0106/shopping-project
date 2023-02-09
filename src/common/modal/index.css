@@ -1,0 +1,384 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+@media (min-width: 800px) {
+  .Login {
+    width: 50%;
+    height: 400px;
+    margin: 0px auto;
+    margin-top: 100px;
+    position: relative;
+    box-shadow: 5px 7px 14px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  .loginTitle {
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 175px;
+  }
+
+  .button_x {
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+
+  .button_x > button {
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: large;
+    cursor: pointer;
+  }
+
+  .user_info {
+    margin-top: 40px;
+    margin-left: 80px;
+    width: 100%;
+    left: 50%;
+  }
+
+  input {
+    width: 70%;
+    height: 30px;
+    font-size: large;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    position: relative;
+  }
+
+  .SignIn > a {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    height: 25px;
+    width: 30%;
+    margin-bottom: 0%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+
+  .GuestLogin > a {
+    color: blue;
+    text-align: center;
+    height: 25px;
+    width: fit-content;
+    margin-bottom: 0%;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+
+  .password {
+    position: relative;
+  }
+
+  .signUpBox {
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 70%;
+    font-size: 3px;
+    color: gray;
+  }
+
+  .signUpBox > a {
+    color: blue;
+    cursor: pointer;
+  }
+
+  .forgetPassword > a {
+    color: blue;
+    cursor: pointer;
+  }
+
+  .signUp {
+    display: block;
+    float: left;
+  }
+
+  .forgetPassword {
+    display: block;
+    float: right;
+  }
+
+  .AcceptDecline {
+    font-size: 5px;
+    color: red;
+  }
+
+  .SendEmailBtn {
+    background-color: red;
+    text-align: center;
+    height: 25px;
+    width: 30%;
+    margin-bottom: 0%;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+
+  .SendEmailBtn > a {
+    color: white;
+  }
+
+  .Signup {
+    width: 50%;
+    height: 400px;
+    margin: 0px auto;
+    margin-top: 100px;
+    position: relative;
+    box-shadow: 5px 7px 14px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  .SignupTitle {
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 210px;
+  }
+
+  .SignupBtn {
+    background-color: green;
+    text-align: center;
+    height: 25px;
+    width: 30%;
+    margin-bottom: 0%;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+
+  .SignupBtn > a {
+    color: white;
+  }
+
+  .AcceptDecline {
+    font-size: 5px;
+    color: red;
+  }
+
+  .sendEmailImg {
+    margin-left: 30%;
+    display: block;
+    height: 200px;
+    width: 200px;
+    background: url(../../Icon/email.png) center no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .sendEmailMessage {
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  .sendEmailSecond {
+    margin-top: 5%;
+    text-align: center;
+    color: red;
+  }
+}
+
+@media (max-width: 800px) {
+  .Login {
+    width: 80%;
+    height: 300px;
+    margin: 0px auto;
+    margin-top: 100px;
+    position: relative;
+    box-shadow: 5px 7px 14px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  .loginTitle {
+    font-size: 23px;
+    display: inline-block;
+    margin-left: 3%;
+  }
+
+  .button_x {
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+
+  .button_x > button {
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: large;
+    cursor: pointer;
+  }
+
+  .user_info {
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 100%;
+    left: 50%;
+  }
+
+  input {
+    width: 70%;
+    height: 30px;
+    font-size: large;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    position: relative;
+  }
+
+  .SignIn > a {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    height: 25px;
+    width: 30%;
+    margin-bottom: 0%;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+
+  .GuestLogin > a {
+    color: blue;
+    text-align: center;
+    height: 25px;
+    width: fit-content;
+    margin-bottom: 0%;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+
+  .password {
+    position: relative;
+  }
+
+  .signUpBox {
+    margin-top: 5%;
+    margin-left: 0%;
+    width: 100%;
+    font-size: 2px;
+    color: gray;
+  }
+
+  .signUpBox > a {
+    color: blue;
+    cursor: pointer;
+  }
+
+  .forgetPassword > a {
+    color: blue;
+    cursor: pointer;
+  }
+
+  .signUp {
+    display: block;
+    float: left;
+  }
+
+  .forgetPassword {
+    display: block;
+    float: right;
+  }
+
+  .AcceptDecline {
+    font-size: 5px;
+    color: red;
+  }
+
+  .SendEmailBtn {
+    background-color: red;
+    text-align: center;
+    height: 25px;
+    width: 30%;
+    margin-bottom: 0%;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+
+  .SendEmailBtn > a {
+    color: white;
+  }
+
+  .Signup {
+    width: 50%;
+    height: 400px;
+    margin: 0px auto;
+    margin-top: 100px;
+    position: relative;
+    box-shadow: 5px 7px 14px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  .SignupTitle {
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 210px;
+  }
+
+  .SignupBtn {
+    background-color: green;
+    text-align: center;
+    height: 25px;
+    width: 30%;
+    margin-bottom: 0%;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+
+  .SignupBtn > a {
+    color: white;
+  }
+
+  .AcceptDecline {
+    font-size: 5px;
+    color: red;
+  }
+
+  .sendEmailImg {
+    margin-left: 25%;
+    display: block;
+    height: 150px;
+    width: 150px;
+    background: url(../../Icon/email.png) center no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .sendEmailMessage {
+    margin-top: 3%;
+    text-align: center;
+  }
+
+  .sendEmailSecond {
+    margin-top: 5%;
+    text-align: center;
+    color: red;
+  }
+}

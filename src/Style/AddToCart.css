@@ -1,0 +1,14 @@
+.addCartBtnBox {
+  float: left;
+  width: 110px;
+  height: 25px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 300;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  background-color: rgb(67, 25, 236);
+}

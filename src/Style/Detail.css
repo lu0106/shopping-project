@@ -1,0 +1,146 @@
+@media (min-width: 800px) {
+  .ProductDetailPage {
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 800px;
+    height: 550px;
+  }
+
+  .ProductDetailPage > h1 {
+    height: 50px;
+  }
+
+  .detailImage {
+    width: 400px;
+    height: 400px;
+    display: block;
+    float: left;
+    overflow: hidden;
+  }
+
+  .detailImage > img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    object-fit: cover;
+  }
+
+  .detailImage:hover > img {
+    transform: scale(1.2);
+  }
+
+  .detailCategory {
+    margin-top: 50px;
+    margin-left: 450px;
+  }
+
+  .detailName {
+    margin-top: 30px;
+    margin-left: 450px;
+  }
+
+  .priceInStock {
+    margin-top: 30px;
+    margin-left: 450px;
+    width: 400px;
+    height: 50px;
+  }
+
+  .priceInStock > h2 {
+    display: block;
+    float: left;
+    width: 50px;
+  }
+
+  .detailOutOfStock {
+    border: 1px solid red;
+    color: white;
+    background-color: rgb(230, 116, 116);
+    width: 100px;
+    margin-left: 70px;
+  }
+
+  .detailDescription {
+    margin-top: 30px;
+    margin-left: 450px;
+  }
+
+  .detailAddEdit {
+    margin-top: 30px;
+    margin-left: 450px;
+  }
+
+  .detailEdit {
+    border: 1px solid blue;
+    color: white;
+    background-color: rgb(67, 25, 236);
+    width: 100px;
+    margin-left: 70px;
+  }
+}
+
+/* ======================================================================================== */
+
+@media (max-width: 800px) {
+  .ProductDetailPage {
+    margin-top: 50px;
+    margin-left: 10%;
+    height: 900px;
+  }
+
+  .ProductDetailPage > h1 {
+    height: 50px;
+  }
+
+  .detailImage {
+    width: 300px;
+    height: 300px;
+    display: block;
+    float: left;
+  }
+
+  .detailImage > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .detailName {
+    margin-top: 30px;
+  }
+
+  .priceInStock {
+    margin-top: 30px;
+    width: 400px;
+    height: 50px;
+  }
+
+  .priceInStock > h2 {
+    display: block;
+    float: left;
+    width: 50px;
+  }
+
+  .detailOutOfStock {
+    border: 1px solid red;
+    color: white;
+    background-color: rgb(230, 116, 116);
+    width: 100px;
+    margin-left: 30%;
+  }
+
+  .detailDescription {
+    margin-top: 30px;
+  }
+
+  .detailAddEdit {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .detailEdit {
+    border: 1px solid blue;
+    color: black;
+    width: 100px;
+    margin-left: 30%;
+  }
+}

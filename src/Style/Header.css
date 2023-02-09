@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+@media (min-width: 800px) {
+  input {
+    outline: none;
+  }
+
+  .Header {
+    background-color: #111827;
+    width: 100%;
+    height: 60px;
+  }
+
+  .title {
+    margin-left: 90px;
+    float: left;
+    color: white;
+    height: 60px;
+    line-height: 60px;
+  }
+
+  .title_Management {
+    font-size: 30px;
+    margin-right: 8px;
+    display: inline-block;
+  }
+
+  .title_M {
+    display: none;
+  }
+
+  .title > span {
+    line-height: 80px;
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+  }
+
+  .search {
+    margin-left: 90px;
+    float: left;
+    width: 400px;
+    height: 30px;
+    position: relative;
+  }
+
+  .headerSearch {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+
+  .headerSearch:focus {
+    border: 2px solid white;
+  }
+
+  .search > a {
+    display: block;
+    top: 18px;
+    right: 0px;
+    height: 24px;
+    width: 24px;
+    background: url(../Icon/search.png) center no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .user_box {
+    margin-left: 250px;
+    margin-top: 7px;
+    width: 50px;
+    display: block;
+    float: left;
+  }
+
+  .user_img {
+    padding-left: 0px;
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+    display: block;
+    float: left;
+    border: 1px solid white;
+  }
+
+  .user_img > p {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url(../Icon/user.png) center no-repeat;
+    background-size: 100%;
+    background-color: white;
+  }
+
+  .user_name {
+    margin-top: 12px;
+    margin-left: 35px;
+    width: 165px;
+  }
+
+  .user {
+    color: white;
+    cursor: pointer;
+  }
+
+  .cart_box {
+    margin-left: 150px;
+    margin-top: 7px;
+    width: 50px;
+    display: block;
+    float: left;
+  }
+
+  .cart_img {
+    padding-left: 0px;
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+    display: block;
+    float: left;
+    border: 1px solid white;
+    position: relative;
+  }
+
+  .cart_img > a {
+    color: white;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+  }
+
+  .cart_img > p {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url(../Icon/shopping-cart.png) center no-repeat;
+    background-size: 100%;
+    background-color: white;
+  }
+
+  .cart_name {
+    margin-top: 12px;
+    margin-left: 35px;
+    width: 60px;
+  }
+
+  .cart_price {
+    padding-left: 10px;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+/* ======================================================================================== */
+
+@media (max-width: 800px) {
+  input {
+    outline: none;
+  }
+
+  .Header {
+    background-color: #111827;
+    width: 100%;
+    height: 100px;
+    position: relative;
+  }
+
+  .title {
+    margin-left: 2%;
+    float: left;
+    color: white;
+  }
+
+  .title_Management {
+    display: none;
+  }
+
+  .title_M {
+    display: inline-block;
+    font-size: 20px;
+  }
+
+  .title > span {
+    line-height: 5%;
+    font-size: 5px;
+    font-weight: 200;
+    color: white;
+  }
+
+  .user_box {
+    margin-left: 30%;
+    margin-top: 7px;
+    width: 50px;
+    display: block;
+    float: left;
+    position: absolute;
+  }
+
+  .user_img {
+    padding-left: 0px;
+    margin-top: 3px;
+    width: 12px;
+    height: 12px;
+    display: block;
+    float: left;
+    border: 1px solid white;
+  }
+
+  .user_img > p {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url(../Icon/user.png) center no-repeat;
+    background-size: 100%;
+    background-color: white;
+  }
+
+  .user_name {
+    margin-top: 3px;
+    margin-left: 35px;
+    width: 100px;
+  }
+
+  .user {
+    color: white;
+    cursor: pointer;
+  }
+
+  .cart_box {
+    margin-left: 70%;
+    margin-top: 7px;
+    width: 50px;
+    display: block;
+    float: left;
+    position: absolute;
+  }
+
+  .cart_img {
+    padding-left: 0px;
+    margin-top: 3px;
+    width: 12px;
+    height: 12px;
+    display: block;
+    float: left;
+    border: 1px solid white;
+  }
+
+  .cart_img > a {
+    color: white;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    border: 1px solid red;
+    border-radius: 10px;
+  }
+
+  .cart_img > p {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url(../Icon/shopping-cart.png) center no-repeat;
+    background-size: 100%;
+    background-color: white;
+  }
+
+  .cart_name {
+    margin-top: 3px;
+    margin-left: 35px;
+    width: 60px;
+  }
+
+  .cart_price {
+    color: white;
+    cursor: pointer;
+  }
+
+  .search {
+    float: left;
+    width: 80%;
+    height: 30px;
+    position: relative;
+  }
+
+  .headerSearch {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-left: -30px;
+  }
+
+  .search > a {
+    display: block;
+    top: 18px;
+    right: 0px;
+    height: 24px;
+    width: 24px;
+    background: url(../Icon/search.png) center no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+  }
+}

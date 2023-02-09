@@ -1,0 +1,21 @@
+.password {
+  position: relative;
+}
+
+@media (min-width: 800px) {
+  .showHide {
+    top: 2px;
+    left: 65%;
+    position: absolute;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 800px) {
+  .showHide {
+    top: 2px;
+    left: 75%;
+    position: absolute;
+    cursor: pointer;
+  }
+}

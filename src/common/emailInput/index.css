@@ -1,0 +1,25 @@
+@media (min-width: 800px) {
+  input {
+    width: 70%;
+    height: 30px;
+    font-size: large;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    position: relative;
+  }
+}
+
+@media (max-width: 800px) {
+  input {
+    width: 85%;
+    height: 30px;
+    font-size: large;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    position: relative;
+  }
+}
